@@ -1,0 +1,138 @@
+@media screen and (max-width: 560px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        background-size: cover;
+        background-position: center;
+    }
+    .form {
+        width: 30px;
+        left: -29%;
+        transform: translate(0px, -40px);
+        margin-top: 5px;
+        position: relative;
+    }
+    .terms {
+        float: left;
+        margin-top: 5px;
+        position: absolute;
+    }
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: arial;
+    background: url('beautiful_silence.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.form {
+    background: rgba(221, 146, 143, 0.5);
+    width: 450px;
+    height: 450px;
+    margin-left: 34%;
+    margin-top: 70px;
+    position: relative;
+    padding: 20px;
+    border-radius: 50px;
+}
+.form1 {
+    background: rgba(221, 146, 143, 0.5);
+    width: 450px;
+    height: 300px;
+    margin-left: 34%;
+    margin-top: 90px;
+    position: relative;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.header p {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input {
+    width: 430px;
+    margin-bottom: 10px;
+    height: 24px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    width: 440px;
+    height: 35px;
+    border-radius: 25px;
+    color: white;
+    background-color:rgb(51, 49, 73);
+}
+
+span {
+    color: rgb(59, 12, 112);
+}
+
+small {
+    font-family: arial;
+    font-size: 15px;
+}
+
+.terms {
+    margin: 30px;
+    margin-top: 5px;
+    font-family: arial;
+    font-size: 17px;
+    text-align: center;
+}
+.terms1 {
+    margin: 30px;
+    margin-top: 55px;
+    font-family: arial;
+    font-size: 17px;
+    text-align: center;
+}
+
+#already {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: arial;
+}
+
+#already span {
+    color: green;
+}
+
+input:focus {
+    border-radius: 25px;
+    font-family: san-serif;
+    font-weight: bold;
+    color: white;
+    background-color:black;
+    padding: 3px;
+}
+
+button:hover {
+    border-radius: 25px;
+    background: rgba(255, 0, 0, 0);
+}
+
+a{ 
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
